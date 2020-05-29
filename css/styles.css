@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffeb8;
+    background-image: url("../images/book.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top; 
+}
+h1, h2 { color: green; }
+p {
+    color: #000;
+    line-height: 2em;
+}
+img{
+    border: 2px solid #c86f5e;
+}
+.resaltar{
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: #c86f5e;
+}
+a:focus{
+    border: 1px dotted #000000;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: lower-roman;
+}
