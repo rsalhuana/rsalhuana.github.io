@@ -1,15 +1,22 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fffeb8;
-    background-image: url("../images/book.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: top; 
+@font-face {
+    font-family: fuenteTitulos;
+    src: url(futura-renner/FuturaRenner-Regular.otf);
 }
-h1, h2 { color: green; }
+
+@font-face {
+   font-family: fuenteParrafos;
+   src: url(futura-renner/FuturaRenner-Light.otf);
+}
+  
+h1, h2 { 
+    color: green; 
+    font-family: fuenteTitulos;
+}
 p {
     color: #000;
-    line-height: 2em;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-family: fuenteParrafos;
 }
 img{
     border: 2px solid #c86f5e;
