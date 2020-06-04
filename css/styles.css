@@ -2,21 +2,21 @@
     font-family: fuenteTitulos;
     src: url(futura-renner/FuturaRenner-Regular.otf);
 }
-
 @font-face {
-   font-family: fuenteParrafos;
-   src: url(futura-renner/FuturaRenner-Light.otf);
+    font-family: fuenteParrafos;
+    src: url(futura-renner/FuturaRenner-Light.otf);
 }
-  
+
 h1, h2 { 
     color: green; 
     font-family: fuenteTitulos;
 }
+
 p {
     color: #000;
     line-height: 1.5em;
-    font-size: 20px;
     font-family: fuenteParrafos;
+    font-size: 20px;
 }
 img{
     border: 2px solid #c86f5e;
