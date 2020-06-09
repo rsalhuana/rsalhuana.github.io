@@ -6,10 +6,21 @@
     font-family: fuenteParrafos;
     src: url(futura-renner/FuturaRenner-Light.otf);
 }
+.cuadro{
+    border: 5px solid brown;
+    padding: 0 2em;
+    margin: 0 20%; /* A D Ab I */   
+}
+.borderradius {
+    border: 2px solid #42352c;
+    border-radius: 10px;
 
+}
 h1, h2 { 
     color: green; 
     font-family: fuenteTitulos;
+    border: 0px solid blue;
+    margin-bottom: .5em;
 }
 
 p {
@@ -17,6 +28,9 @@ p {
     line-height: 1.5em;
     font-family: fuenteParrafos;
     font-size: 20px;
+    border: 0px dotted blue;
+    padding: 0 2em 1em 1em; /* A D Ab I */
+    margin: 0;
 }
 img{
     border: 2px solid #c86f5e;
