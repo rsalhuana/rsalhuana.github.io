@@ -6,21 +6,84 @@
     font-family: fuenteParrafos;
     src: url(futura-renner/FuturaRenner-Light.otf);
 }
-.cuadro{
-    border: 5px solid brown;
-    padding: 0 2em;
+body{
+    background-image: url("../images/moscow-5271909_1280.jpg");
+}
+nav, header, article{
     margin: 0 20%; /* A D Ab I */   
 }
+
+nav{
+    background-color: #003049;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: #eae2b7;
+}
+nav a:visited{
+    color: #c86f5e;
+}
+nav a:focus{
+    border: 1px dotted #000000;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav ul{
+    margin: 0;
+    list-style-type: none;
+}
+article a{
+    text-decoration: none;
+}
+article a:link{
+    color: #f77f00;
+}
+article a:visited{
+    color: #c86f5e;
+}
+article a:focus{
+    border: 1px dotted #000000;
+}
+article a:hover{
+    text-decoration: underline;
+}
+header{
+    background-color: #fcbf49;
+    font-size: 4em;
+    text-align: center;
+    padding: 2rem;
+    font-family: fuenteTitulos;
+    
+}
+article{
+    background-color: #eae2b7;
+    padding: 0 2em;
+}
+article ul{
+    list-style-type: square;
+}
+article ol{
+    list-style-type: lower-roman;
+}
+
 .borderradius {
     border: 2px solid #42352c;
     border-radius: 10px;
-
 }
 h1, h2 { 
     color: green; 
     font-family: fuenteTitulos;
     border: 0px solid blue;
-    margin-bottom: .5em;
+}
+
+h1{
+    font-size: 2em;
+    margin: 0;
+    padding-top: 1em;
 }
 
 p {
@@ -39,24 +102,5 @@ img{
     font-style: italic;
     font-weight: bold;
 }
-a{
-    text-decoration: none;
-}
-a:link{
-    color: red;
-}
-a:visited{
-    color: #c86f5e;
-}
-a:focus{
-    border: 1px dotted #000000;
-}
-a:hover{
-    text-decoration: underline;
-}
-ul{
-    list-style-type: square;
-}
-ol{
-    list-style-type: lower-roman;
-}
+
+
