@@ -11,14 +11,16 @@ body{
 }
 nav, header, article{
     margin: 0 20%; /* A D Ab I */   
+    border: 0px dotted black;
 }
-
 nav{
     background-color: #003049;
     color: white;
 }
 nav a{
     text-decoration: none;
+    display: block;
+    padding: 1rem;
 }
 nav a:link{
     color: #eae2b7;
@@ -30,14 +32,25 @@ nav a:focus{
     border: 1px dotted #000000;
 }
 nav a:hover{
-    text-decoration: underline;
+    
 }
 nav ul{
     margin: 0;
     list-style-type: none;
 }
+nav li{
+    border: 1px solid yellow;
+    width: 10rem;
+    text-align: center;
+    display: inline-block;
+    background-color: #c86f5e;
+}
+nav li:hover{
+    background-color: #f77f00;
+}
 article a{
     text-decoration: none;
+    border: 1px solid black;
 }
 article a:link{
     color: #f77f00;
@@ -58,6 +71,9 @@ header{
     padding: 2rem;
     font-family: fuenteTitulos;
     
+}
+strong{
+    border:1px solid red;
 }
 article{
     background-color: #eae2b7;
@@ -94,6 +110,7 @@ p {
     border: 0px dotted blue;
     padding: 0 2em 1em 1em; /* A D Ab I */
     margin: 0;
+
 }
 img{
     border: 2px solid #c86f5e;
