@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem auto;
+}
+.alinearizq {
+    float:left;
+    margin: 0 1rem 1rem 0;
+}
+.alinearder{
+    float: right;
+    margin: 1rem 0 0 1rem;
+}
+article{
+    padding: 0 2rem 2rem 2rem;  
+    border: 2px solid brown;
+    width: 50rem;
+    margin: 0 auto;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+aside{
+    border: 1px dotted brown;
+    float: left;
+    margin: 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
