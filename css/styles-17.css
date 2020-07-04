@@ -5,7 +5,7 @@ header{
     font-size: 26px;
     font-weight: bolder;
     padding: 2rem;
-    margin: 2rem 0;
+    margin: 0;
 }
 .search{
     float: right;
@@ -15,7 +15,7 @@ header{
     height: 23px;
 }
 .titulo{
-
+    font-size: 3rem;
 }
 nav{
     padding-left: 2rem;
@@ -25,13 +25,13 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
-    display: flex;
     margin: 0;
+    display: flex;
 }
 nav li{
     flex-flow: row nowrap;
     justify-content: flex-start;
-    flex-basis: 9rem;
+    flex-basis: 10%;
     text-align: center;
 }
 nav li a{
@@ -47,10 +47,10 @@ nav li a:hover{
 }
 .segmento{
     border: 0px solid blueviolet;
-    padding-right: 3rem;
     background-color: #efefef;
-    margin-top: 4rem;
-    padding-right: 3.5rem;    
+    margin-top: 3rem;
+    padding-right: 4.5rem;    
+    padding-left: 2.5rem;
 }
 .segmento img{
     float: left;
