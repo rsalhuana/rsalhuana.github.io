@@ -15,7 +15,13 @@ header{
     height: 23px;
 }
 .titulo{
+    float: left;
     font-size: 3rem;
+}
+header:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 nav{
     padding-left: 2rem;
