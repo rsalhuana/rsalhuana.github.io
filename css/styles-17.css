@@ -39,6 +39,10 @@ nav li a:hover{
     color: white;
     background-color: black;
 }
+.contacto{
+    flex-grow: 2;
+    font-weight: bolder;
+}
 .segmento{
     border: 0px solid blueviolet;
     background-color: #efefef;
