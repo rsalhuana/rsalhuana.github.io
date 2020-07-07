@@ -2,26 +2,14 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    font-size: 26px;
     font-weight: bolder;
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
     margin: 0;
-}
-.search{
-    float: right;
-    font-size: 1rem;
-}
-.search input{
-    height: 23px;
+    display: flex;
+    justify-content: space-between;
 }
 .titulo{
-    float: left;
     font-size: 3rem;
-}
-header:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 nav{
     padding-left: 2rem;
